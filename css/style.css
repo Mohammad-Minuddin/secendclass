@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 99%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/*----------------Image---------------*/
+
+.container-one{
+    width: 100%;
+    height: 50px;
+    background: #3067F0;
+}
+.one-img{
+    float: left;
+    height: 100%;
+    width: 115px;
+}
+.one-img img{
+    width: 115px;
+    margin-left: 7%;
+    padding: 3px;
+}
+
+
+/*---------------Home left---------------*/
+
+.one-left{
+    float: left;
+}
+.one-left ul{
+    display: flex;
+    color: white;
+    font-size: 17px;
+}
+.one-left ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+
+/*----------------Home Right---------------*/
+
+.one-right{
+    float: right;
+    margin-right: 1%;
+}
+.one-right ul{
+    display: flex;
+    color: white;
+}
+.one-right ul li{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 17px;
+}
+/*----------------Menubar end---------------*/
+
+
+/*---------------Container-Two Image---------------*/
+
+.container-two{
+    background: url(../img/img1.jpeg);
+    height: 775px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-twoo{
+    padding-top: 20px;
+}
+.container-two-run{
+    width: 480px;
+    height: 540px;
+    margin: 0 auto;
+    opacity: 0.9;
+    background: rgb(245, 239, 237);
+    
+}
+/*---------------form---------------*/
+.two-run{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.two-run h2{
+    padding-top: 39px;
+    font-size: 28px;
+}
+.hr-one{
+    margin-top: 5px;
+}
+.two-run p{
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-top: 35px;
+}
+.two-run-one{
+    width: 100%;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0.1rem solid black;
+    box-sizing: border-box;
+}
+.two-run .hr-two{
+    margin-top: 45px;
+}
+.two-run-two{
+    margin-top: 27px;
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: #3067F0;
+    letter-spacing: 1px;
+    font-size: 19px;
+    border: whitesmoke;
+}
+.a-one{
+  width: 100%;
+  height: 100px;
+  margin-top: 25px;
+  text-align: center;
+}
+a{
+   font-size: 21px;
+   display: block;
+   text-decoration: none;
+   margin-top: 20px;
+}

@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 99%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/*----------------Image---------------*/
+
+.container-one{
+    width: 100%;
+    height: 50px;
+    background: #3067F0;
+}
+.one-img{
+    float: left;
+    height: 100%;
+    width: 115px;
+}
+.one-img img{
+    width: 115px;
+    margin-left: 7%;
+    padding: 3px;
+}
+
+
+/*---------------Home left---------------*/
+
+.one-left{
+    float: left;
+}
+.one-left ul{
+    display: flex;
+    color: white;
+    font-size: 17px;
+    
+}
+.one-left ul li{
+    list-style: none;
+    margin: 15px;
+}
+
+
+/*----------------Home Right---------------*/
+
+.one-right{
+    float: right;
+    margin-right: 1%;
+}
+.one-right ul{
+    display: flex;
+    color: white;
+}
+.one-right ul li{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 17px;
+}
+/*----------------Menubar end---------------*/
+
+/*---------------Reset password---------------*/
+.container-two{
+    width: 100%;
+    height: 680px;
+    margin: 0 auto;
+    background: #ECEFF1;
+}
+.container-two-one{
+    width: 540px;
+    height: 380px;
+    margin: 0 auto;
+}
+.two-one-run{
+    width: 90%;
+    height: 100%;
+    margin-top: 25px;
+    background: white;
+    margin: 0 auto;
+}
+.two-one-run .p-one{
+    padding-top: 30px;
+    font-size: 25px;
+}
+.hr-one{
+    margin-top: 5px;
+}
+.p-two{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.contain-one{
+    width: 100%;
+    padding: 8px;
+    margin-top: 2px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0.11rem solid black;
+    box-sizing: border-box;
+}
+.hr-two{
+    margin-top: 45px;
+}
+.contain-two{
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background: #3067F0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+.a-one{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.a-one a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    
+}
