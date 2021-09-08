@@ -19,8 +19,8 @@ body{
 }
 .one-img{
     float: left;
-    height: 100%;
-    width: 115px;
+    width: 11.3%;
+    
 }
 .one-img img{
     width: 115px;
@@ -33,16 +33,18 @@ body{
 
 .one-left{
     float: left;
+    margin-left: 10px;
 }
 .one-left ul{
     display: flex;
     color: white;
-    font-size: 17px;
+    font-size: 13px;
     
 }
 .one-left ul li{
     list-style: none;
-    margin: 15px;
+    margin-left: 20px;
+    margin-top: 18px;
 }
 
 
@@ -50,7 +52,7 @@ body{
 
 .one-right{
     float: right;
-    margin-right: 1%;
+    margin-right: 2%;
 }
 .one-right ul{
     display: flex;
@@ -58,8 +60,9 @@ body{
 }
 .one-right ul li{
     list-style-type: none;
-    margin: 15px;
-    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 18px;
+    font-size: 13px;
 }
 /*----------------Menubar end---------------*/
 
@@ -67,20 +70,22 @@ body{
 .container-two{
     width: 100%;
     height: 680px;
-    margin: 0 auto;
     background: #ECEFF1;
+}
+.marginTop{
+    height: 25px;
 }
 .container-two-one{
     width: 540px;
     height: 380px;
+    background: white;
     margin: 0 auto;
 }
 .two-one-run{
     width: 90%;
-    height: 100%;
-    margin-top: 25px;
-    background: white;
+    height: 25px;
     margin: 0 auto;
+    background: white;
 }
 .two-one-run .p-one{
     padding-top: 30px;
